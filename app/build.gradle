@@ -130,7 +130,7 @@ repositories {
 // Signing Config code
 // From https://gist.github.com/gabrielemariotti/6856974
 def props = new Properties()
-def propFile = new File('signing.properties')
+def propFile = new File('.siging/signing.properties')
 if (propFile.canRead()) {
     props.load(new FileInputStream(propFile))
 
